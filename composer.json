@@ -1,0 +1,29 @@
+{
+    "name": "rahmanramsi/defer-queue",
+    "description": "Defer queue driver for laravel",
+    "type": "laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rahmanramsi\\DeferQueue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahman Ramsi",
+            "email": "rahmanramsi19@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/auth": "11.*",
+        "illuminate/contracts": "11.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rahmanramsi\\DeferQueue\\DeferQueueServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
