@@ -1,6 +1,6 @@
 Defer Queue driver for Laravel
 ======================
-Defer Queue driver for Laravel provides a deferred queue processing by deferring queue process to the end of request.
+Defer Queue driver for Laravel provides a deferred queue processing by deferring queue process after the response is sent to the browser.
 
 
 ## Installation
